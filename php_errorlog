@@ -1,0 +1,56 @@
+[17-Sep-2017 18:13:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[18-Oct-2017 19:26:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[21-Dec-2017 00:37:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[09-Feb-2018 15:48:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[09-Mar-2018 17:19:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[12-Jun-2018 17:21:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[13-Jul-2018 17:19:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[14-Aug-2018 17:19:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[15-Sep-2018 17:19:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[16-Oct-2018 17:31:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[17-Nov-2018 17:21:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[18-Dec-2018 17:34:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[19-Jan-2019 18:15:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1
+[11-Oct-2019 12:38:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/gianlu99/public_html/wp-content/themes/peluffo/index.php on line 1

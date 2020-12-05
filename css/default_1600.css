@@ -1,0 +1,9 @@
+@media (min-width:1600px) {
+  .menu_container .item_table {
+    width: 1290px;
+  }
+  .menu_container ul.vocimenu li a {
+    font-size: 39px;
+  }
+
+}

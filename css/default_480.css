@@ -1,0 +1,49 @@
+@media (orientation: landscape) {
+
+    .item_table {
+        display: table;
+        height: calc(100vh - 50px);
+        width: 100%;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .item_table.video {
+        padding-top:0px;
+        padding-bottom: 0px;
+        height: calc(100vh - 150px);
+    }
+    body.menu_aperto .item_table.video {
+        padding-top: 50px;
+    }
+
+    .menu_container ul.vocimenu li a {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .menu_container .item_cell {
+      text-align: left;
+    }
+    .menu-menu_left-container,
+    .menu-menu_left_en-container {
+      width:35%;
+      margin-left: 15%;
+      margin-right: 5%;
+      display:inline-block;
+      vertical-align: top;
+    }
+    .menu-menu_right-container,
+    .menu-menu_right_en-container {
+      width:35%;
+      margin-right: 10%;
+      margin-left: 0%;
+      display:inline-block;
+      vertical-align: top;
+    }
+
+}
+@media (min-width:480px) {
+	#footer {
+		font-size: 14px;
+	}
+}

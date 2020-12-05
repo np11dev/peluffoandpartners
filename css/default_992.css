@@ -1,0 +1,124 @@
+@media (min-width:992px) {
+	.menu_container {
+
+	}
+	.topbar {
+		margin: 80px 80px 0px 80px;
+	}
+	.center_content {
+		margin: 0px 80px 0px 80px;
+	}
+	.topbar .menu_btn_img {
+		cursor:pointer;
+	}
+	.topbar .logo img {
+	    /*width: 450px;
+	    height:65px;*/
+	    width: 330px;
+	}
+	.menu_container ul.vocimenu li a {
+		font-size: 29px;
+		line-height: 1.5;
+	}
+	.menu_container .item_table {
+		height: calc( 100vh - 270px);
+		padding-top: 135px;
+		padding-bottom:135px;
+		width:960px;
+		margin:0 auto;
+		text-align: left;
+	}
+	body.menu_aperto .contenuto {
+	   padding-top: 130px;
+	}
+	.progetto .intestazione {
+	    padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	.progetti_elenco_item,
+	.archiviot_elenco_item  {
+		margin-left: 75px;
+	}
+	/* Filippo 25-08 */
+	.videogallery{
+		margin-left: 75px;
+		width: calc(100% - 75px);
+	}
+	/* END Filippo 25-08 */
+	.video_div{
+		display: inline-block;
+		width: calc(50% - 80px);
+		height: calc(28.31vw - 118px);
+		margin-left: 30px;
+		margin-right: 50px;
+		margin-bottom: 80px;
+	}
+	.progetti_elenco_item:before,
+	.archiviot_elenco_item:before,
+	.videogallery:before {
+		left: -75px;
+	}
+	.divisore_titolo.sopra span {
+		/*margin-top:80px;*/
+        margin-top:60px;
+	}
+	.divisore_titolo.sotto span {
+		/*margin-bottom:80px;*/
+        margin-bottom:60px;
+	}
+	body.page-template-templ-chisiamo .progetti_elenco_item {
+	    margin-left: 75px;
+	}
+     #hsdoidsjo {
+        margin-left: 105px;
+    }
+    #hsdoidsjo:before {
+        left:-105px;
+    }
+    .elencopersone {
+        width: calc(50% - 80px);
+        margin-left: 80px;
+    }
+    .videocontainer {
+        width: calc(50% - 55px);
+    }
+    .elencopersone p,
+    .elencopersone *,
+    .studioluciofontana .elencopersone *,
+    .studioluciofontana .elencopersone p{
+        font-size: 17px;
+    }
+    .parole_main_img {
+        width: 50%;
+    }
+    .photocontainer{
+        width: calc(50% - 55px);
+    }
+    .progetto_icona01, .progetto_icona02 {
+        margin-left: 121px;
+    }
+    .progetto_blocco01 .progetto_icone:before {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+	#sb_instagram.sbi_col_4 #sbi_images .sbi_item{
+		padding: 25px !important
+	}
+		.menu-menu_left-container,
+		.menu-menu_left_en-container {
+			width:35%;
+			margin-left: 15%;
+			margin-right: 0%;
+			display:inline-block;
+			vertical-align: top;
+		}
+		.menu-menu_right-container,
+		.menu-menu_right_en-container {
+			width:35%;
+			margin-right: 10%;
+			margin-left: 5%;
+			display:inline-block;
+			vertical-align: top;
+		}
+}
