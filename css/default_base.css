@@ -916,6 +916,16 @@ body.page-template-templ-intro #footer {
     cursor: auto;
 }
 
+img.certificazione {
+    width: 100%;
+    max-width: 320px;
+}
+img.certificazione-mini {
+    height: 25px;
+    vertical-align: top;
+    margin-top: -4px;
+    margin-right: 8px;
+}
 /* ===============================================
             Prove per immagini 4 - 9 - 2017
    =============================================== */
