@@ -86,6 +86,22 @@
 	}
 	/* Fine Home Menu */
 
+	/* Filtro Progetti */
+	body.page-template-templ-progetti .intestazione{
+		position: relative;
+	}
+	#filter-projects{
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		margin-bottom: 0;
+	}
+	#filter-projects .filter-toggle{
+		justify-content: flex-start;
+	}
+	/* Fine Filtro Progetti */
+
 	.menu_container {
 
 	}

@@ -132,6 +132,17 @@ thisite.intro = function () {
     setInterval(myRepeat, 9000);
 }
 
+thisite.filter = function () {
+    let toogle = jQuery('.filter-toggle');
+
+    if(toogle){
+        toogle.on('click', function (e) {
+            e.preventDefault();
+            $(this).toggleClass('active');
+        });
+    }
+}
+
 jQuery(document).ready(function () {
     //if ( jQuery("body").hasClass("home") ) {
 
@@ -143,5 +154,6 @@ jQuery(document).ready(function () {
     //thisite.slick_start();
     //}
     thisite.fn_hamburger();
+    thisite.filter();
     //magventura.lazyload();
 });

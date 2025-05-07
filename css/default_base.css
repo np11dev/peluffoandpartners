@@ -586,8 +586,68 @@ body.menu_aperto .contenuto {
     letter-spacing: 7px;
 }
 
-
-
+/* Filtro Progetti */
+#filter-projects{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    z-index: 1;
+    position: relative;
+}
+#filter-projects .filter-toggle{
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    position: relative;
+}
+#filter-projects .filter-toggle:after{
+    content: '';
+    transform: rotate(45deg) translateY(-4px);
+    -webkit-transform: rotate(45deg) translateY(-4px);
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+#filter-projects .filter-toggle.active:after{
+    transform: rotate(225deg) translateY(-3px);
+    -webkit-transform: rotate(225deg) translateY(-3px);
+}
+#filter-projects nav{
+    list-style: none;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 10;
+    top: 160%;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #666;
+    padding: 24px 16px;
+}
+#filter-projects .filter-toggle.active + nav{
+    display: block;
+}
+#filter-projects nav li{
+    margin-bottom: 16px;
+}
+#filter-projects nav li:last-child{
+    margin-bottom: 0;
+}
+#filter-projects nav li a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+#filter-projects nav li a:hover{
+    opacity: .8;
+}
 
 .progetti_elenco_item,
 .archiviot_elenco_item {

@@ -25,6 +25,17 @@ $orderby = 'RAND(' . $seed . ')';
             <div class="divisore_titolo sopra"><span></span></div>
             <div class="titolo"><?php the_title() ?></div>
             <div class="divisore_titolo sotto"><span></span></div>
+            <!-- Filtro -->
+             <div id="filter-projects">
+                <a href="#" class="filter-toggle">Filtra</a>
+                <nav>
+                    <li><a href="#">Taxonomy Projects</a></li>
+                    <li><a href="#">Taxonomy Projects</a></li>
+                    <li><a href="#">Taxonomy Projects</a></li>
+                    <li><a href="#">Taxonomy Projects</a></li>
+                    <li><a href="#">Taxonomy Projects</a></li>
+                </nav>
+             </div>
         </div>
     <div class="contenuto_pagina">
         <div class="progetti_elenco_item">
