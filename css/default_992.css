@@ -1,4 +1,17 @@
 @media (min-width:992px) {
+
+	/* Home Menu */
+	.home-menu{
+		left: 80px;
+	}
+	.home-menu nav > li > .sub-menu{
+		padding-left: 165px;
+	}
+	.home-menu nav > li > .sub-menu:before{
+		width: 35%;
+	}
+	/* Fine Home Menu */
+
 	.menu_container {
 
 	}

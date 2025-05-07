@@ -177,6 +177,10 @@ a.pollice img {
     width: 115px;
 }
 
+.home-menu{
+    display: none;
+}
+
 .topbar {
     margin: 20px 20px 0px 20px;
     position: relative;

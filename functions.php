@@ -51,8 +51,9 @@ remove_action('wp_head', 'wp_generator');
 
 if(function_exists('register_nav_menus')){
 	register_nav_menus(array('primary'=>__('Primary Menu'),));
-  register_nav_menus(array('primary_left'=>__('Primary Menu Left'),));
-  register_nav_menus(array('primary_right'=>__('Primary Menu Right'),));
+    register_nav_menus(array('primary_left'=>__('Primary Menu Left'),));
+    register_nav_menus(array('primary_right'=>__('Primary Menu Right'),));
+    register_nav_menus(array('primary_home'=>__('Primary Menu Home'),));
 }
 
 if (function_exists('register_sidebar')) {

@@ -43,6 +43,18 @@ $('#footer').css('position', 'absolute');
 		<!--<source src="loop-hd.webm" type="video/webm" />--><!-- Firefox / Opera / Chrome10 -->
 	</video>
 
+	<div class="home-menu">
+		<span class="home-menu-line"></span>
+		<?php
+		wp_nav_menu( array( 
+			'theme_location'  => 'primary_home',
+			'items_wrap'      => '<nav>%3$s</nav>',
+			'depth' => 2,
+			'container' => ''
+		) );
+		?>
+	</div>
+
 <!-- 	<div class="item_table video">
 		<div class="item_cell">
 			<div class="playvideo" >
