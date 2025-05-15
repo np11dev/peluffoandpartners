@@ -4,41 +4,30 @@
 	body.page-template-templ-homepage .topbar .menu_btn{
 		display: none;
 	}
-	body.page-template-templ-homepage .topbar .logo .logoimg {
-		margin: 0;
-   }
 	.home-menu{
 		display: block;
 		position: absolute;
 		z-index: 10;
 		left: 40px;
-		top: 40%;
-		text-transform: uppercase;
-		font-family: 'Oswald', sans-serif;
+		top: calc(50% + 50px);
+        transform: translateY(-50%);
+	}
+	.menu_container .home-menu{
+		height: auto;
+		overflow: unset;
+	}
+	.page-template-templ-homepage .home-menu{
+		top: 50%;
+        transform: translateY(-50%);
 	}
 	.home-menu .home-menu-line{
 		display: block;
-		width: 50px;
-		height: 1px;
+	}
+	.page-template-templ-homepage .home-menu .home-menu-line{
 		background-color: #fff;
-		margin-bottom: 32px;
 	}
-	.home-menu nav{
-		list-style: none;
-	}
-	.home-menu nav > li{
-		margin-bottom: 8px;
-		opacity: 1;
-		transition: all 0.3s ease;
-	}
-	.home-menu nav > li:last-child{
-		margin-bottom: 0;
-	}
-	.home-menu nav > li > a{
+	.page-template-templ-homepage .home-menu nav > li > a{
 		color: #fff;
-		font-size: clamp(32px, 5vw, 50px);
-		line-height: 1;
-		text-decoration: none;
 	}
 	.home-menu nav:has(li:hover) > li:not(:hover) {
 		opacity: .5;
@@ -56,21 +45,28 @@
 		transition: all 0.3s ease;
 		padding-left: 80px;
 		padding-top: 38px;
+		border-top: 1px solid #000;
+	}
+	.page-template-templ-homepage .home-menu nav > li > .sub-menu{
 		border-top: 1px solid #fff;
 	}
 	.home-menu nav > li > .sub-menu:before{
 		content: '';
 		display: block;
 		height: 1px;
-		background: #fff;
+		background: #000;
 		width: 25%;
 		position: absolute;
 		top: -1px;
 		right: 100%;
 	}
+	.page-template-templ-homepage .home-menu nav > li > .sub-menu:before{
+		background: #fff;
+	}
 	.home-menu nav > li:hover > .sub-menu{
 		opacity: 1;
 		visibility: visible;
+		height: auto;
 	}
 	.home-menu nav > li > .sub-menu > li{
 		margin-bottom: 8px;
@@ -78,11 +74,8 @@
 	.home-menu nav > li > .sub-menu > li:hover{
 		opacity: .8;
 	}
-	.home-menu nav > li > .sub-menu > li > a{
+	.page-template-templ-homepage .home-menu nav > li > .sub-menu > li > a{
 		color: #fff;
-		font-size: clamp(18px, 4vw, 24px);
-		line-height: 1;
-		text-decoration: none;
 	}
 	/* Fine Home Menu */
 
@@ -103,6 +96,7 @@
 	/* Fine Filtro Progetti */
 
 	.menu_container {
+		padding: 80px;
 
 	}
 	.topbar {

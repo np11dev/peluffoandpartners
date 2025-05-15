@@ -37,42 +37,16 @@
 <?php $templ_dir = get_template_directory_uri(); ?>
 
 <div class="menu_container">
-	<div class="item_table">
-		<div class="item_cell">
-			<!--<ul class="vocimenu">
-				<li><a href="/progetti/">Progetti</a></li>
-				<li><a href="/archivio-tematico/">Archivio tematico</a></li>
-				<li><a href="/chi-siamo/">Chi siamo noi</a></li>
-				<li><a href="/studio-lucio-fontana">Studio Lucio Fontana</a></li>
-				<li><a href="/news/">Ultimamente (news)</a></li>
-				<li><a href="/parole/">Parole</a></li>
-        <li><a href="/video/">Video</a></li>
-			</ul>-->
-			<?php
-		/*	$defaults = array(
-				'theme_location'  => 'primary',
-				'echo'            => true,
-				'fallback_cb'     => 'wp_page_menu',
-				'items_wrap'      => '<ul class="vocimenu">%3$s</ul>',
-			);
-			wp_nav_menu( $defaults );*/
-			$defaults = array(
-					'theme_location'  => 'primary_left',
-					'echo'            => true,
-					'fallback_cb'     => 'wp_page_menu',
-					'items_wrap'      => '<ul class="vocimenu left">%3$s</ul>',
-				);
-				wp_nav_menu( $defaults );
-
-				$defaults = array(
-						'theme_location'  => 'primary_right',
-						'echo'            => true,
-						'fallback_cb'     => 'wp_page_menu',
-						'items_wrap'      => '<ul class="vocimenu right">%3$s</ul>',
-					);
-					wp_nav_menu( $defaults );
-			?>
-		</div>
+	<div class="home-menu">
+		<span class="home-menu-line"></span>
+		<?php
+		wp_nav_menu( array( 
+			'theme_location'  => 'primary_home',
+			'items_wrap'      => '<nav>%3$s</nav>',
+			'depth' => 2,
+			'container' => ''
+		) );
+		?>
 	</div>
 </div>
 

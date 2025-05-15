@@ -1,6 +1,4 @@
 
-@media screen {
-
 * { margin: 0; padding: 0; }
 
 .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
@@ -177,8 +175,60 @@ a.pollice img {
     width: 115px;
 }
 
+/* new Menu */
 .home-menu{
     display: none;
+}
+.menu_container .home-menu{
+    display: block;
+    overflow-y: auto;
+    height: 100%;
+}
+.home-menu{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.home-menu .home-menu-line{
+    display: none;
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    margin-bottom: 32px;
+}
+.home-menu nav{
+    list-style: none;
+}
+.home-menu nav > li{
+    margin-bottom: 8px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.home-menu nav > li:last-child{
+    margin-bottom: 0;
+}
+.home-menu nav > li > a{
+    color: #000;
+    font-size: clamp(32px, 5vw, 50px);
+    line-height: 1;
+    text-decoration: none;
+    display: block;
+}
+.home-menu nav > li > .sub-menu{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+.home-menu nav > li > .sub-menu.submenu-active{
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    margin: 24px 0;
+}
+.home-menu nav > li > .sub-menu > li > a{
+    color: #000;
+    font-size: clamp(18px, 4vw, 24px);
+    line-height: 1;
+    text-decoration: none;
 }
 
 .topbar {
@@ -521,7 +571,7 @@ body.menu_aperto .contenuto {
 
 .progetto_icona02 a{
     color:#999999;
-    text-decoration: none;#
+    text-decoration: none;
 }
 .progetto_icona01 img, .progetto_icona02 img {
     width: 100%;
@@ -858,6 +908,7 @@ body.page-template-templ_studiofontana .progetti_elenco_item {
 
 
 .menu_container {
+    padding: 100px 26px 26px 26px;
     position: fixed;
     opacity:0;
     left:0px;
@@ -869,15 +920,11 @@ body.page-template-templ_studiofontana .progetti_elenco_item {
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     display: block;
 }
     /* fade menu */
 body.menu_chiuso .menu_container{
-    -moz-transition: opacity 1s ease;
-    -webkit-transition: opacity 1s ease;
-    -o-transition: opacity 1s ease;
-    transition: opacity 1s ease;
     opacity:0;
     pointer-events:none;
 }
