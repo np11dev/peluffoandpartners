@@ -547,7 +547,7 @@
     #hsdoidsjo:before {
         left:-65px;
     }
-    .elencopersone {
+    .elencopersone, .page-template-templ-chisiamo .elencopersone {
         width: calc(50% - 40px);
         margin-left: 40px;
     }
@@ -557,7 +557,7 @@
     .studioluciofontana .elencopersone p {
         font-size: 14px;
     }
-    .videocontainer {
+    .videocontainer, .page-template-templ-chisiamo .videocontainer {
         width: calc(50% - 40px);
     }
 

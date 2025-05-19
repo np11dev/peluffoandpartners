@@ -809,7 +809,14 @@ ul.parole_lista li a {
     font-style: normal;
 }
 
-
+.page-template-templ-chisiamo .videocontainer,
+.page-template-templ-chisiamo .elencopersone{
+    width: 100%;
+    margin-left: 0;
+}
+.page-template-templ-chisiamo .videocontainer{
+    margin-bottom: 24px;
+}
 .videocontainer {
     width: 50%;
     display: inline-block;

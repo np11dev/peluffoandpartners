@@ -2,7 +2,7 @@ var thisite = {};
 
 thisite.mobileSubMenu = function () {
     if ($(window).width() < 768) {
-        let menuItem = jQuery('.home-menu li.menu-item-has-children a');
+        let menuItem = jQuery('.home-menu li.menu-item-has-children > a');
         menuItem.on('click', function (e) {
             e.preventDefault();
             $(this).next('.sub-menu').toggleClass('submenu-active');
