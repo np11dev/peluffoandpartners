@@ -45,7 +45,7 @@ thisite.homepage = function () {
              }
            ]
      });
-     
+
      jQuery('.linkurl')
          .mouseenter(function() {
              jQuery(this).parent().addClass('mouseover');
@@ -144,6 +144,13 @@ thisite.filter = function () {
             e.preventDefault();
             $(this).toggleClass('active');
         });
+    }
+
+    const activeFilter = $('#filter-projects nav li a.active');
+
+    if (activeFilter.length) {
+        const activeText = activeFilter.text();
+        $('.filter-toggle').text(activeText);
     }
 }
 
