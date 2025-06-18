@@ -256,7 +256,7 @@ body.menu_aperto .topbar {
     width: 40px;
     height: 35px;
 }
-    
+
 
 .topbar .menu_btn .icon-bar {
     background-color: #000;
@@ -272,14 +272,14 @@ body.menu_aperto .topbar {
     -o-transition: .5s;
     -transition: .5s;
 }
-    
+
 body.page-template-templ-homepage .topbar .menu_btn .icon-bar {
     background-color: #FFF;
 }
 body.page-template-templ-homepage.menu_aperto .topbar .menu_btn .icon-bar {
      background-color: #000;
 }
-    
+
 .menu_aperto .topbar .menu_btn .icon-bar:nth-child(1){
     width: 42px;
     margin-top: 15px;
@@ -634,6 +634,10 @@ body.menu_aperto .contenuto {
     font-size: 16px;
     /*font-weight: bold;*/
     letter-spacing: 7px;
+}
+
+.progetti_elenco .intestazione {
+    position: relative;
 }
 
 /* Filtro Progetti */

@@ -26,16 +26,26 @@ $orderby = 'RAND(' . $seed . ')';
             <div class="titolo"><?php the_title() ?></div>
             <div class="divisore_titolo sotto"><span></span></div>
             <!-- Filtro -->
-             <div id="filter-projects">
+            <div id="filter-projects">
                 <a href="#" class="filter-toggle">Filtra</a>
                 <nav>
-                    <li><a href="#">Taxonomy Projects</a></li>
-                    <li><a href="#">Taxonomy Projects</a></li>
-                    <li><a href="#">Taxonomy Projects</a></li>
-                    <li><a href="#">Taxonomy Projects</a></li>
-                    <li><a href="#">Taxonomy Projects</a></li>
+                    <ul>
+                        <?php
+                        $tipologie = get_terms([
+                            'taxonomy' => 'tipologia',
+                            'hide_empty' => true,
+                        ]);
+
+                        if (!empty($tipologie) && !is_wp_error($tipologie)) {
+                            foreach ($tipologie as $tipologia) {
+                                $link = get_term_link($tipologia);
+                                echo '<li><a href="' . esc_url($link) . '">' . esc_html($tipologia->name) . '</a></li>';
+                            }
+                        }
+                        ?>
+                    </ul>
                 </nav>
-             </div>
+            </div>
         </div>
     <div class="contenuto_pagina">
         <div class="progetti_elenco_item">
